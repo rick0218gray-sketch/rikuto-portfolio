@@ -8,7 +8,7 @@
 
 | プロジェクト | 内容 | 本人の関わり | 確認できること |
 | --- | --- | --- | --- |
-| [sklearn-map-lab](https://github.com/rick0218gray-sketch/sklearn-map-lab) | モデルを同じ分割で比較し、採用理由と最終テストの結果を記録するローカルWebアプリ | Codexを活用した個人開発 | 14テストの通過、実ブラウザでの操作、合成データでの結果の再現手順。[検証の詳細](https://github.com/rick0218gray-sketch/sklearn-map-lab#検証) |
+| [sklearn-map-lab](https://github.com/rick0218gray-sketch/sklearn-map-lab) | モデルを同じ分割で比較し、採用理由と最終テストの結果を記録するローカルWebアプリ | Codexを活用した個人開発 | 30テストの通過（GitHub Actionsで毎回実行）、実ブラウザでの操作、合成データでの結果の再現手順。[検証の詳細](https://github.com/rick0218gray-sketch/sklearn-map-lab#検証) |
 | [SmolVLAのLoRA追加学習とLIBERO-plus評価](https://github.com/rick0218gray-sketch/smolvla-libero-lora) | 講座の課題を起点にしたLoRA追加学習の実験結果 | Claudeを活用してLoRAの学習設定と評価手順を改良 | Spatialは両モデル30/30。4スイート集計はベース28/33、LoRA版14/33。設定の変更点と実測集計を公開 |
 | [日本語の指令で動くロボットアーム](https://github.com/rick0218gray-sketch/physical-AI1-var1) | Gazebo上のCRANE+ V2で、日本語の指令をローカルLLMが動作の列に変換し、ACTで学習した6つのスキルを順に実行する講座の最終課題 | お手本の自動生成、スキル別のACT学習、LLMによる計画と評価、モデルの常駐実行を課題で作成（Claudeによる実装支援を含む） | 6スキルは各5/5。開始姿勢をずらすとbow・waveは各0/3。動作計画の40件評価はqwen2.5 3Bで33/40、7Bで36/40。1動作の所要時間を約40秒から約10秒に短縮。シミュレーションのみ。[動画（YouTube）](https://youtu.be/JBdugjrzdls) |
 | [四足ロボットの2対2フットサル](https://github.com/rick0218gray-sketch/physical-AI1-futsal) | Genesis上のUnitree Go2による2対2フットサル。LLM監督のお手本から模倣学習し、選手だけの自己対戦PPOで強化した講座の最終課題 | 環境、お手本、監督、学習、評価のコードを課題で作成（Claudeによる実装支援を含む） | 強化学習後はお手本に256試合で110勝132分14敗、得点140、失点21。シミュレーションのみ。動画の試合ではキーパーがゴール前にいた時間が6%で、役割を守っていない |
