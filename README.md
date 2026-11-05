@@ -38,8 +38,7 @@ Physical AI 応用1講座の最終課題です。Gazebo上のCRANE+ V2アーム�
 
 - **結果**　最終6スキルは各5/5。動作計画の40件評価はqwen2.5 3Bで33/40、7Bで36/40（ローカル8GB GPU）。モデルを常駐させ、1動作の所要時間を約40秒から約10秒に短縮しました。
 - **注意**　同じ直立初期姿勢からの少数試行で、開始姿勢をずらすとbow・waveは各0/3でした。シミュレーションのみで、実機は動かしていません。
-- **動画**　[提出動画（リポジトリ内のmp4、2分10秒）](https://github.com/rick0218gray-sketch/physical-AI1-var1/blob/main/crane_act/videos/submission_ad.mp4)
-- **別リポジトリ**　同じ内容を [physical-AI1-last-var1-robot-arm-with-LLM](https://github.com/rick0218gray-sketch/physical-AI1-last-var1-robot-arm-with-LLM) にも収録しています（説明資料の動画URLとリポジトリURLの記載だけが異なります）。
+- **動画**　[YouTube](https://youtu.be/JBdugjrzdls) ／ [リポジトリ内のmp4（2分10秒）](https://github.com/rick0218gray-sketch/physical-AI1-var1/blob/main/crane_act/videos/submission_ad.mp4)
 
 ### 四足ロボットの2対2フットサル
 
